@@ -4,6 +4,33 @@ body{
     font-family: 'Merriweather', serif;
     color:#40514E;
 }
+@media screen and (max-width:600px) {
+    .middle-container{
+        width:600px;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 300px;
+        position: relative;
+    }
+    .bottom-container{
+        width:700px;
+        background-color: #66BFBF;
+        text-align: center;
+    }
+    .top-portion{
+        flex-direction: column;
+        background-color: #11999E;
+        width:600px;
+    }
+    .moun{
+        width:500px;
+        height: 300px;
+    }
+    .skills{
+        width:600px;
+    }
+}
+
 h1{
     line-height: 2;
     color : #66BFBF;
